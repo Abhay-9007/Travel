@@ -571,6 +571,7 @@
                 const card = document.createElement('div');
                 card.className = 'destination-card';
                 card.innerHTML = `
+                    <a href = 'agra.html'>
                     <div class="card-image">
                         <img src="${destination.image}" alt="${destination.name}">
                         <div class="card-tag">${destination.tag}</div>
@@ -593,6 +594,7 @@
                             </div>
                         </div>
                     </div>
+                    </a>
                 `;
                 grid.appendChild(card);
             });
